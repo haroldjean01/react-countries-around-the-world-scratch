@@ -11,7 +11,7 @@ export default function useCountries() {
         const resp = await fetchCountries();
         setCountries(resp);
       } catch (e) {
-        setError('Somethings Wrong Here');
+        setError(e.message);
       }
     };
     fetchData();
