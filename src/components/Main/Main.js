@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useCountries from '../../hooks/useCountries.js';
 import CountryCard from '../CountryCard/CountryCard.js';
-import Main.css from '../../Main/Main.css'
+import './Main.css';
 export default function Main() {
   const { countries, error } = useCountries();
   const [continent, setContinent] = useState('all');
