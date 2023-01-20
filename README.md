@@ -26,4 +26,4 @@ Required for grading: Main branch deployed to Netlify, and open PR from dev bran
 useEffect correctly loads the list of countries when the `Main` component renders 4
 useEffect uses a try / catch block to display an error if the API call fails 4
 useEffect / useState moved into a custom useCountries component 4
-Users can filter by continent 4
+Users can filter by continent
